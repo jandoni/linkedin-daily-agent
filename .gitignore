@@ -1,0 +1,29 @@
+# ── SECRETS — never commit ──────────────────────────────────────────────────
+config.env
+*.env
+!config.example.env
+n8n.cookies
+*.cookies
+n8n_cookies.txt
+PLAN.txt
+
+# ── generated workflow JSON (contain the bot token + credential IDs) ─────────
+wf_a.json
+wf_b.json
+patch_*.json
+*_resp.json
+run_a.json
+cur*.json
+wf_*.json
+e1.json
+e2.json
+latest.json
+card_b64.txt
+
+# ── local artifacts ─────────────────────────────────────────────────────────
+card-preview.png
+card.html
+*.mp4
+*.pyc
+__pycache__/
+.DS_Store
